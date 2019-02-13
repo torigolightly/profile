@@ -1,0 +1,123 @@
+body {
+  background-color: #f4e3ea;
+  text-align: center;
+}
+
+
+h1, h2, h3 {
+  font-family: Poiret One;
+  font-weight: 100px;
+  letter-spacing: 8px;
+}
+
+p {
+  font-family: Josefin Sans;
+  color: #2d2d2d;
+}
+
+a {
+  color: #465935;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f4e3ea;
+
+}
+
+table img {
+  border: 10px solid  black;
+}
+
+
+/*custom design */
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  padding: 30px 25px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 25px 25px 96px 2px rgba(0,0,0,0.45);
+}
+
+.image-size {
+  width: 40%;
+}
+
+.image-border img {
+
+}
+
+
+.image-td {
+  text-align: center;
+}
+
+.bttn:hover
+
+#intro p {
+  margin-bottom: 20px
+}
+
+ul {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin-left: 10px;
+  padding: 0;
+}
+
+#icon {
+  color: #D2E1C8;
+}
+
+.sub_head {
+  font-size: 150%;
+}
+
+/*adding responsiveness*/
+
+@media (max-width: 1000px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
